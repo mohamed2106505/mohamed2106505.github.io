@@ -1,0 +1,112 @@
+/* ===== Global Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0a0a0a;
+    color: #ddd;
+    line-height: 1.6;
+  }
+  
+ 
+  /* ===== Top Note Section ===== */
+  .top_note {
+    text-align: center;
+    margin: 4rem auto 2rem;
+    padding: 1rem;
+    max-width: 700px;
+  }
+  
+  .top_note h1 {
+    font-size: 2.5rem;
+    color: #00ff62bb;
+    margin-bottom: 0.5rem;
+  }
+  
+  .top_note h4 {
+    font-weight: 400;
+    color: #ddd;
+  }
+  
+  /* ===== Contact Info Section ===== */
+  .contact {
+    text-align: center;
+    background-color: #111;
+    border: 1px solid #222;
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 600px;
+    color: #ddd;
+    box-shadow: 0 0 20px #00ff6241;
+  }
+  
+  .contact br {
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact a {
+    color: #00ff62bb;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ===== Footer ===== */
+  footer {
+    background-color: #0a0a0a;
+    border-top: 1px solid #00ff62bb;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 0.9rem;
+    color: #ddd;
+  }
+  
+  footer a {
+    color: #00ff62bb;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #ddd;
+  }
+  
+  /* ===== Responsive Design ===== */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .contact {
+      margin: 1.5rem;
+    }
+  }
+/* ---------- LinkedIn and GitHub Icons ---------- */
+.socials {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;      /* centers vertically (if height is set) */
+    gap: 1rem;
+    margin-top: 1.5rem;       /* adds some spacing above */
+  }
+  
+  .socials img {
+    width: 24px;
+    height: 24;
+    transition: transform 0.3s ease;
+    filter: drop-shadow(0 0 4px rgba(0, 255, 100, 0.4));
+    cursor: pointer;
+  }
+  
+  .socials img:hover {
+    transform: scale(2.5);
+    background-color: #00ff6620;
+  }
+  

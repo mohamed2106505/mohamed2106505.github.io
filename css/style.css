@@ -1,0 +1,162 @@
+/* ---------- General Styles ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d0d0d;
+    color: #fff;
+    line-height: 1.6;
+  }
+    
+  /* ---------- Hero Section ---------- */
+  .hero {
+    padding: 5rem 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+  }
+  
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  
+  .hero-text {
+    flex: 1 1 400px;
+    max-width: 600px;
+  }
+  
+  .hero-text .intro {
+    color: #ddd ;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.8rem;
+    color: #fff;
+  }
+  
+  
+  .hero-text h2 {
+    font-size: 1.6rem;
+    color: #00ff62bb;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    color: #ccc;
+    margin-bottom: 2rem;
+  }
+  
+  /* ---------- Buttons ---------- */
+  .btn {
+    text-decoration: none;
+    padding: 0.6rem 1.2rem;
+    border-radius:  20%;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn.primary {
+    background-color: #00ff62bb;
+    color: #fff;
+  }
+  
+  .btn.primary:hover {
+    background-color: #00ff62bb;
+  }
+  
+  .btn.secondary {
+    border: 2px solid #00ff62bb;
+    color: #00ff62bb;
+  }
+  
+  .btn.secondary:hover {
+    background-color: #00ff62bb;
+    color: #fff;
+  }
+  
+  /* ---------- linkedin and github Icons ---------- */
+  .socials {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .socials img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+    filter: drop-shadow(0 0 4px rgba(0, 255, 100, 0.4));
+    cursor: pointer;
+    
+  }
+  
+  .socials img:hover {
+    transform: scale(2.5);
+    background-color: #000000bb;
+  }
+  
+  /* ---------- Hero Image ---------- */
+  .hero-image {
+    flex: 1 1 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle-border {
+    border: 8px solid #00ff6200;
+    border-radius: 20%;
+    padding: 3px;
+    display: inline-block;
+    box-shadow: 0 0 20px #00ff6241;
+
+    
+  }
+  
+  .circle-border img {
+    width: 280px;
+    height: 280px;
+    border-radius: 30%;
+    object-fit: cover;
+  }
+  
+  /* ---------- Responsive ---------- */
+  @media (max-width: 900px) {
+    .hero-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .buttons {
+      justify-content: center;
+    }
+  }
+  footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #111;
+    color: #aaa;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    border-top: 1px solid #00ff62bb;
+  }
+  
+  
+  
+  
